@@ -1,0 +1,53 @@
+/* Reset de Estilos para uma base limpa */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.exhibit {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.exhibit h2 {
+    margin-bottom: 1rem;
+}
+
+.exhibit img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+footer {
+    margin-top: 2rem;
+}
